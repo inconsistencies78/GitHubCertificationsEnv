@@ -147,6 +147,11 @@ Checkout the branch
 git checkout dev
 ```
 
+create branch and checkout
+``` sh
+git checkout -b testbranch
+```
+
 
 ## Remotes
 
