@@ -37,7 +37,7 @@ cd GitHub-Examples
 ```
 
 > You'll need to generate a Personal Access Token (PAT)
-https://github.com/settings/token
+https://github.com/settings/tokens
 
 You will use the PAT as your password when you login
 
@@ -53,20 +53,32 @@ cd GitHub-Examples
 We will need to create our own SSH rsa key pair
 
 ```sh
-sshe-keygen -t rsa
+ssh-keygen -t rsa
 ```
+
+then enter file where to save. good in ssh folder
+/home/ /.ssh/github_id_rsa
+
 
 For WSL users and if you crete a non default key you might need to add it
 
 ```sh
-eval `ssh-agent`
-ssh-add /home/andrew/.ssh/alt-github_id_rsa
+eval `ssh-agent` # create ssh-agent
+ssh-add /home/name/.ssh/github_id_rsa # add key
 ```
 
 We can test our connection here:
 ```
-ssh -T git@github.com
+ssh -T git@github.com # test ssh connection
 ```
+
+add key to github
+```sh
+cat /home/name/.ssh/github_id_rsa.pub #show pub key
+```
+go to www.github.com/settings/keys
+put in Title (i.e. Location and Computername, local etc) and Key
+
 
 ### Github CLI
 
