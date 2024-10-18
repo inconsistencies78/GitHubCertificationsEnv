@@ -56,8 +56,9 @@ We will need to create our own SSH rsa key pair
 ssh-keygen -t rsa
 ```
 
-then enter file where to save. good in ssh folder
-/home/ /.ssh/github_id_rsa
+then enter file where to save. good in ssh folder. if not it is in your current folder.
+
+/home/.ssh/github_id_rsa
 
 
 For WSL users and if you crete a non default key you might need to add it
@@ -99,6 +100,14 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 gh auth login
 gh repo clone andrew-wc-brown/Github-Examples
 ```
+use  ssh keys created during ssh login. if ssh login was not used alredy it is necessary to run before:
+```sh
+ssh-keygen -t rsa
+```
+
+then enter file where to save. good in ssh folder. if not it is in your current folder.
+
+/home/.ssh/github_id_rsa
 
 ## Commits
 
