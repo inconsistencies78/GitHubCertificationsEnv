@@ -17,19 +17,28 @@ Lists:
 * -,
 * or +.
   
-Ordered lists: Use numbers (
+*Ordered lists: Use numbers (
 1., 
 2., 
 3.
 ).
+*
 
 ## Formatting Text:
 Bold: **bold**
+
 Italics: *italics*
+
 Bold & Italics: ***bold italics***
+
 Links: [text](URL)
-Blockquotes: Use > for quotes.
+
+Blockquotes: Use 
+  > for quotes.
+
 Conversion to HTML
 Markdown is converted into HTML for web display.
+
 Raw Markdown: Text-based syntax in a plain .md file.
+
 HTML Preview: The formatted output as seen in web browsers.
