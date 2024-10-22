@@ -98,8 +98,8 @@ Use task lists to track items:
 + Important Words
 
 ## Subscript and Superscript
-+ Subscript: H~2~O → H2O
-+ Superscript: X^2^ → X²
+* Subscript: H~2~O → H2O
+* Superscript: X^2^ → X²
 
 ## Emoji
 Insert emojis using :emoji_name::
