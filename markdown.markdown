@@ -17,10 +17,10 @@ Lists:
 * -,
 * or +.
   
-*Ordered lists: Use numbers (
-  1., 
-  1., 
-  1.
+* Ordered lists: Use numbers (
+  1. first
+  2. second
+  3. third
 ).
 
 ---
