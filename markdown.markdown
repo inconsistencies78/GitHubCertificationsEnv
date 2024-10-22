@@ -19,9 +19,13 @@ Lists:
   
 *Ordered lists: Use numbers (
   1., 
-  2., 
-  3.
+  1., 
+  1.
 ).
+
+---
+### Code inline
+`puts "hello world"`
 
 
 ## Formatting Text:
